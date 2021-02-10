@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ListaDeMusica from './components/ListaDeMusica';
 
 const Home = props => {
-    const [state, setState] = useState({
+    const [state] = useState({
         listaAudio: [
             { "id": 1, "category": "game", "name": "Mario Castle", "url": "files/mario/songs/castle.mp3" },
             { "id": 2, "category": "game", "name": "Mario Star", "url": "files/mario/songs/hurry-starman.mp3" },
